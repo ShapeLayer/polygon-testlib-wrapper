@@ -2,6 +2,10 @@
 
 Simple testlib.h wrapper to run polygon requirements locally.  
 
+## How to Use
+
+Copy [`main.cpp`](./main.cpp) and modify `int main(int argc, char* argv[])`.  
+
 ## Supports
 
 Coverage
