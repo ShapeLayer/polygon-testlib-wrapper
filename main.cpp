@@ -71,7 +71,7 @@ string w_readLine();
 void w_readEoln();
 void w_readEof();
 
-/* ========== Runner ==========*/
+/* ========== Runner ========== */
 int main(int argc, char* argv[]) {
   w_register(argc, argv);
   return 0;
