@@ -129,7 +129,7 @@ int w_rnd_next(int init, int fin) {
 
 void w_ensure(bool cond) {
   #if IS_POLYGON_ENV
-  ensure(cond)
+  ensure(cond);
   #else
   if (!cond) { exit(1); }
   #endif
